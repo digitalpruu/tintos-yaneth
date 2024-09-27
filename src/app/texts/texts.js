@@ -1,9 +1,9 @@
 const title = "Tintos Yaneth";
-const email = ""; // Información no proporcionada
+const email = "Yabetzubieta42@gmail.com";
 const mensajeWhatsApp = encodeURIComponent(
-    "¡Hola! Estoy muy interesado en tus productos de " + title + " y me gustaría recibir más información sobre ellos. Espero poder hablar pronto contigo para aclarar algunas dudas. ¡Gracias!"
+    "¡Hola! Estoy interesado en conocer más sobre los productos de " + title + " y me gustaría obtener más información. ¡Gracias!"
 );
-const numeroWhatsApp = ""; // Información no proporcionada
+const numeroWhatsApp = "+573222909974"; // Incluido el prefijo +57
 
 const textos = {
     index: {
@@ -13,8 +13,7 @@ const textos = {
         title: title,
     },
     about: {
-        description1: "Tintos Yaneth ofrece una variedad de productos para disfrutar y compartir momentos especiales. Nos especializamos en la venta de tintos, avena, aromáticas y otros productos que acompañan tus mejores momentos. Creemos que la risa reduce el estrés, y qué mejor manera de hacerlo que con una taza de tinto y buena compañía.",
-        description2: "En Tintos Yaneth, estamos comprometidos en ofrecerte una experiencia única con nuestros productos. Cada taza está hecha con cuidado para asegurar que disfrutes de un sabor excepcional y de la comodidad que solo una buena bebida puede ofrecer."
+        description1: "En Tintos Yaneth, nos especializamos en ofrecer tintos, avena, aromática y más, brindando la mejor compañía para reducir el estrés, porque sabemos que una buena risa y una taza de tinto pueden hacer tu día mucho mejor.",
     },
     contact: {
         whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`,
@@ -22,15 +21,15 @@ const textos = {
     },
     footer: {
         slogan: {
-            p1: "La risa reduce el estrés más si es con buena compañía y una taza de tinto",
+            p1: "La risa reduce el estrés, más si es con buena compañía y una taza de tinto.",
             p2: ""
         },
         address: "", // Información no proporcionada
         phone: numeroWhatsApp,
         email: email,
-        facebook: "https://www.facebook.com/",
-        instagram: "https://www.instagram.com/",
-        tiktok: "https://www.tiktok.com/",
+        facebook: "https://www.facebook.com", // Enlace base de Facebook
+        instagram: "https://www.instagram.com", // Enlace base de Instagram
+        tiktok: "https://www.tiktok.com", // Enlace base de TikTok
         whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`
     },
 };
